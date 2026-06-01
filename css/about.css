@@ -446,6 +446,8 @@ body.dark .topbar {
     }
 
     .contact-info {
+        max-width: 80vw;
+        
         display: flex;
         flex-flow: column nowrap;
         justify-content: center;
@@ -455,7 +457,7 @@ body.dark .topbar {
     }
 
     .contact-data {
-        width: 100%;
+        max-width: 80vw;
     }
 
     .contact-icon {
@@ -515,14 +517,12 @@ body.dark .topbar {
 }
 
 .contact-info p a {
-    
     text-align: center;
     color: var(--text);
     text-decoration: underline;
 }
 
 .contact-data {
-
     padding: 10px;
     box-sizing: border-box;
     display: inline-flex;
@@ -530,7 +530,6 @@ body.dark .topbar {
     align-items: center;
     gap: 15px;
     justify-content: space-evenly;
-    
     height: fit-content;
 }
 
@@ -543,4 +542,9 @@ body.dark .topbar {
     width: 50px;
     border-radius: 50%;
     background: var(--primary);
+}
+
+.contact-icon i {
+    color: var(--card);
+    font-size: 1.5rem;
 }

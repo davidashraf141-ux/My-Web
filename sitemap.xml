@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://sitemaps.org">
+   <url>
+      <loc>https://daviddev.infinityfree.me/</loc>
+      <changefreq>daily</changefreq>
+      <priority>1.0</priority>
+   </url>
+   <url>
+      <loc>https://daviddev.infinityfree.me/About</loc>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <url>
+      <loc>https://daviddev.infinityfree.me/Services</loc>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+      <lastmod>2026-06-01</lastmod>
+   </url>
+</urlset>
