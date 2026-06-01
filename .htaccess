@@ -1,0 +1,10 @@
+Options +MultiViews
+RewriteEngine On
+
+# توجيه الروابط التي تنتهي بـ html إلى روابط نظيفة
+RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
+RewriteRule ^ /%1 [NC,L,R=301]
+
+# قراءة الملف داخلياً عند طلب الرابط النظيف
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^ %{REQUEST_URI}.html [NC,L]
